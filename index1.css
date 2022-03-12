@@ -1,0 +1,48 @@
+.container{
+width: 50%;
+margin: auto;
+text-align: center;
+}
+ol{
+    margin-left: 250px;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    background-color: rgb(9, 177, 79);
+
+}
+.box1:hover{
+    transition-duration: 4s;
+
+    width: 300px;
+}
+.box2:hover{
+    transition-duration: 4s;
+
+    width: 300px;
+    height: 300px;
+}
+.box3:hover{
+    transition-duration: 2s;
+    width: 300px;
+}
+.box4:hover{
+    transition-duration: 3s;
+    width: 300px;
+}
+.box5:hover{
+    transition-duration: 2s;
+    width: 300px;
+}
+.box6:hover{
+    transition-duration: 3s;
+    width: 300px;
+}
+.box7:hover{
+    transition-duration: 2s;
+    width: 300px;
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: yellow;
+}
+.container{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.anim1{
+    background-color: rgb(16, 99, 138);
+    animation-name: skewx;
+    animation-duration: 2s;
+}
+.anim{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 2rem;
+    animation-iteration-count: infinite;
+}
+@keyframes skewx{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+        }
+    }
+    .anim2{
+        background-color: rgb(82, 44, 44);
+        animation-name: skewy;
+        animation-duration: 2s;
+    }
+    
+    @keyframes skewy{
+        0%{
+            transform: skewY(20deg);
+        }
+        50%{
+            transform: skewY(-20deg);
+        }
+        100%{
+            transform: skewY(20deg);
+            }
+        }
+        .anim3{
+            background-color: rgb(16, 99, 138);
+            animation-name: rotate;
+            animation-duration: 2s;
+        }
+        @keyframes rotate{
+            0%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+                }
+            }
+            .anim4{
+            background-color: rgb(16, 99, 138);
+            animation-name: scaleY;
+            animation-duration: 2s;
+            }
+            @keyframes scaleY{
+                0%{
+                    transform: scaleY(1);
+                }
+                50%{
+                    transform: scaleY(0.5);
+                }
+                100%{
+                    transform: scaleY(1);
+                    }
+                }
+                .anim5{
+                    background-color: rgb(138, 16, 16);
+                    animation-name: scalee;
+                    animation-duration: 2s;
+                }
+                @keyframes scalee{
+                    0%{
+                        transform: scaleX(1);
+                    }
+                    50%{
+                        transform: scaleX(0.5);
+                    }
+                    100%{
+                        transform: scaleX(1);
+                        }
+                    }
+                    .anim6{
+                        background-color: rgb(8, 153, 45);
+                        animation-name: rotate2;
+                        animation-duration: 2s;
+                    }
+                    @keyframes rotate2{
+                        0%{
+                            transform: rotate(10deg);
+                        }
+                        50%{
+                            transform: rotate(-90deg);
+                            }
+                        100%{
+                            transform: rotate(10deg);
+                        }
+                        }
+
+    
